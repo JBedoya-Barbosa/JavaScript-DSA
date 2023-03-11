@@ -1,10 +1,10 @@
-// Adding a comment
 function linearSearch(arr, value) {
     if(!value) return -1
 
-    for(let i=0 ; i<arr.length ; i++) {
-        if(arr[i] === value) return i
+    for(let val of arr) {
+        if(val === value) return i
     }
+
     return -1
 }
 
