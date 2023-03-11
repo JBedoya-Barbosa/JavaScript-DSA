@@ -1,3 +1,4 @@
+// Adding a comment
 function linearSearch(arr, value) {
     if(!value) return -1
 
