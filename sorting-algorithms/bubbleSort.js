@@ -10,7 +10,7 @@ function bubbleSort(arr) {
 
         for(let j=0 ; j<arr.length - i - 1 ; j++) {
             iterations++
-            
+
             if(arr[j] > arr[j+1]) {
                 temp = arr[j]
                 arr[j] = arr[j+1]
