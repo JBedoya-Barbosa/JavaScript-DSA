@@ -1,4 +1,3 @@
-// This algorithm just apply for sorted array of numbers
 // Time complexity: O(log(n))
 // Space complexity: O(1)
 function binarySearch(arr, value) {
