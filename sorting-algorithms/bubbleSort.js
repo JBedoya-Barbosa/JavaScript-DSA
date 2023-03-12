@@ -7,8 +7,10 @@ function bubbleSort(arr) {
 
     for(let i=0 ; i<arr.length ; i++) {
         let swapped = false
+
         for(let j=0 ; j<arr.length - i - 1 ; j++) {
             iterations++
+            
             if(arr[j] > arr[j+1]) {
                 temp = arr[j]
                 arr[j] = arr[j+1]
@@ -16,6 +18,7 @@ function bubbleSort(arr) {
                 swapped = true
             }
         }
+
         if(!swapped) break
     }
 
